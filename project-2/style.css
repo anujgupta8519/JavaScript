@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-top: 30px;
+}
+h2{
+    text-align: center;
+    padding-bottom: 5vh;
+}
+form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+input{
+    padding: 10px;
+    font-size: medium;
+}
+label{
+    font-size: large;
+}
+#weight-guide{
+    padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+button{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    background-color:aqua ;
+    
+}
