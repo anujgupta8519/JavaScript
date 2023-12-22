@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cointainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    height:100vh ;
+    width: 100vw;
+}
+.button{
+    height: 10vh;
+    justify-self: center;
+    width: 10vw;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#grey{
+    background-color: grey;
+}
+#white{
+    background-color: white;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
