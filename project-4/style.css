@@ -1,0 +1,49 @@
+h1{
+    background-color: black;
+    text-align: center;
+}
+*{
+    background-color: #212121;
+    color: white;
+}
+.wrapper{
+    text-align: center;
+    font-size: larger;
+}
+#guess{
+    display: block;
+    font-size: 100px;
+}
+#guessField{
+    display: block;
+    background-color: whitesmoke;
+    padding: 3vh 5vw;
+    margin-bottom: 30px;
+    color: black;
+    font-size: larger;
+    border: 3px solid grey
+}
+form{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.guessSubmit{
+    padding: 20px 50px;
+    font-size: large;
+    border-radius: 10px 20px;
+    background-color: black;
+}
+.resultParas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.guesses{
+    background-color: grey;
+    width: 10px;
+}
