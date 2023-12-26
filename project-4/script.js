@@ -7,7 +7,7 @@ const lowOrhig = document.querySelector(".lowOrhig");
 const StartOver = document.querySelector(".resultParas")
 const p = document.createElement('p');
 let previousguess = [];
-let numguess = 10;
+let numguess = 1;
 let playGame = true;
 
 if (playGame) {
